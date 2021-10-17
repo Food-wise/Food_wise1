@@ -1,0 +1,23 @@
+## Refer to SQL_script file to create the DB ##
+## Install mysql-connector-python
+
+import mysql.connector
+
+#connect to the database
+
+mydb = mysql.connector.connect(
+    host = "localhost",
+    user = "root",
+    password = "PASSWORD, ##type in your password##
+    port = "3306",
+    database = "food_wise"
+)
+
+##MySQLCursor of the package allows communication with DB and queries##
+
+mycursor = mydb.cursor()
+
+mycursoer.execute("SELECT * FROM fridge")
+
+##fectchall retrieves all rows of query##
+fridge = mycursor.fetchall()
