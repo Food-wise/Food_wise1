@@ -1,0 +1,11 @@
+"""Copy and paste this script into MySQl to create the DB for the website"""
+
+CREATE DATABASE food_wise;
+USE food_wise;
+
+create table fridge(
+food_item varchar(15) not null,
+quantity int not null
+);
+
+select * from fridge;
