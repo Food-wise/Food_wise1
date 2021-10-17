@@ -17,7 +17,7 @@ mydb = mysql.connector.connect(
 
 mycursor = mydb.cursor()
 
-mycursoer.execute("SELECT * FROM fridge")
+mycursor.execute("SELECT * FROM fridge")
 
 ##fectchall retrieves all rows of query##
 fridge = mycursor.fetchall()
