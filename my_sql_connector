@@ -24,6 +24,6 @@ fridge = mycursor.fetchall()
 
 #add a food item -- need to edit with input from frontend
 
-add_item = "INSERT INTO fridge (food_item, quantity) VALUES (%s, %s)"
+add_item = "INSERT INTO fridge (food_item, quantity, expiry_date) VALUES (%s, %s, %s)"
 my_cursor.execute(add_item)
 mydb.commit
