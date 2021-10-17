@@ -5,7 +5,8 @@ USE food_wise;
 
 create table fridge(
 food_item varchar(15) not null,
-quantity int not null
+quantity int not null,
+expiry_date date not null
 );
 
 select * from fridge;
