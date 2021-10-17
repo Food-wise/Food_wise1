@@ -1,0 +1,11 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: manuale-bold
+font link: https://fonts.google.com/specimen/Manuale
+font author: Omnibus Type
+font author site: http://www.omnibus-type.com/
+
+
+{"bg":"#DFE9EC","icon-gradient-0":"#122663","icon-gradient-1":"#5DD7AD","font":"#12292A","slogan":"#263d3e"}
+      
